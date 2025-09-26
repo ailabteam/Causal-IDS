@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 
 # --- Cấu hình ---
-PROCESSED_DATA_DIR = 'processed_data'
+PROCESSED_DATA_DIR = 'processed_data_subset'
 RESULTS_DIR = 'results'
 TRAIN_BENIGN_FILE = os.path.join(PROCESSED_DATA_DIR, 'train_benign.csv')
 GRAPH_OUTPUT_FILE = os.path.join(RESULTS_DIR, 'causal_graph_ges_enhanced.txt')

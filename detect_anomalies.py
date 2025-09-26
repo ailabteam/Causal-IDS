@@ -5,7 +5,7 @@ import joblib
 from sklearn.linear_model import LinearRegression
 
 # --- Cấu hình ---
-PROCESSED_DATA_DIR = 'processed_data'
+PROCESSED_DATA_DIR = 'processed_data_subset'
 RESULTS_DIR = 'results'
 MODELS_DIR = os.path.join(RESULTS_DIR, 'causal_models')
 TRAIN_BENIGN_FILE = os.path.join(PROCESSED_DATA_DIR, 'train_benign.csv')

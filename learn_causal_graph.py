@@ -9,7 +9,7 @@ from causallearn.utils.GraphUtils import GraphUtils
 import time
 
 # --- Cấu hình ---
-PROCESSED_DATA_DIR = 'processed_data'
+PROCESSED_DATA_DIR = 'processed_data_subset'
 TRAIN_BENIGN_FILE = os.path.join(PROCESSED_DATA_DIR, 'train_benign.csv')
 OUTPUT_DIR = 'results'
 GRAPH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'causal_graph_ges.txt')

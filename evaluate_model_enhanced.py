@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import roc_curve, auc, precision_recall_fscore_support, accuracy_score, confusion_matrix
 
-PROCESSED_DATA_DIR = 'processed_data'
+PROCESSED_DATA_DIR = 'processed_data_subset'
 RESULTS_DIR = 'results'
 LABELS_FILE = os.path.join(PROCESSED_DATA_DIR, 'test_labels.csv')
 SCORES_FILE = os.path.join(RESULTS_DIR, 'anomaly_scores_enhanced.csv') # File score mới

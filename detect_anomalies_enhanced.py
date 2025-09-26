@@ -6,7 +6,7 @@ import joblib
 from sklearn.ensemble import GradientBoostingRegressor
 
 # --- Cấu hình ---
-PROCESSED_DATA_DIR = 'processed_data'
+PROCESSED_DATA_DIR = 'processed_data_subset'
 RESULTS_DIR = 'results'
 TRAIN_BENIGN_FILE = os.path.join(PROCESSED_DATA_DIR, 'train_benign.csv')
 TEST_DATA_FILE = os.path.join(PROCESSED_DATA_DIR, 'test_data.csv')
